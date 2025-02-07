@@ -39,6 +39,7 @@
     flex-direction: row;
     display: flex;
     margin-top: 20px;
+    text-align: center;
 }
 
 .div-primeiro {
@@ -49,3 +50,29 @@
 
 }
 
+.imagem {
+    height: 300px;
+    width: 300px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagens {
+    height: 130px;
+    width: 130px;
+    justify-content: flex-start;
+}
+
+.direita {
+    align-items: baseline;
+    justify-content: flex-end;
+    display: flex;
+
+}
+
+.esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
